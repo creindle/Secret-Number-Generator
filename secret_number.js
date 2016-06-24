@@ -2,7 +2,6 @@
 module.exports = (function() {
   var secretNumber = function(n) {
     n = 1000;
-    return n;
     var secretNumberGenerator = function() {
       return secretNumber();
     };
